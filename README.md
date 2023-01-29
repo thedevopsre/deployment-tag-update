@@ -15,6 +15,7 @@ The first search tag on the namespace example old tag is ` v1.0.0, if have with 
  ```
 
 ## Variables
+ - `config_path`
  - `namespace`
  - `old_tag`
  - `new_tag`
