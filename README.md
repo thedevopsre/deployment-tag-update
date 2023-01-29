@@ -6,6 +6,14 @@ The first search tag on the namespace example old tag is ` v1.0.0, if have with 
  - Will be change all deployments with tag v1.0.0 in the namespace which you specify.
  - Ensure all variables are true before running on production.
 
+## Installation
+ Debian/Ubuntu
+ ```
+ sudo apt-get install python3 python3-pip
+ sudo pip3 install kubernetes
+ sudo pip3 install logging
+ ```
+
 ## Variables
  - `namespace`
  - `old_tag`
