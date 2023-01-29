@@ -9,7 +9,7 @@ The first search tag on the namespace example old tag is ` v1.0.0, if have with 
 ## Installation
  Debian/Ubuntu
  ```
- sudo apt-get install python3 python3-pip
+ sudo apt-get install -y python3 python3-pip
  sudo pip3 install kubernetes
  sudo pip3 install logging
  ```
@@ -19,3 +19,10 @@ The first search tag on the namespace example old tag is ` v1.0.0, if have with 
  - `old_tag`
  - `new_tag`
  - `container_image`
+
+## Run
+  ```
+  git clone https://github.com/vndark/kubernetes-tag-update.git
+  cd kubernetes-tag-update
+  python3 main.py
+  ```
